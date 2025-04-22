@@ -3,49 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat with Dr. SYNO</title>
-    <link rel="stylesheet" href="chat.css">
+    <title>Mental Health Support</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  
-  <div class="app-container">
-    <button class="toggle-history">☰</button>
 
-    <aside class="chat-history">
-        <h2>Chat History</h2>
-        <button class="new-chat-btn">+ New Chat</button>
-        <ul id="chat-history-list">
-        </ul>
-    </aside>
+    <header>
+        <img src="./assets/Robotic.png" alt="Mental Health Logo" class="header-logo">
+        <h1>Welcome to Mental Health Support</h1>
+    </header>
 
-    <main class="chat-container">
-      <a href="chat.html" class="back-btn">
-        <img src="./assets/home.png" alt="Back" class="header-logo">
-      </a>
-      
-      <div class="chat-header">
-        <img src="./assets/ChatCare-Avatar.png" alt="Dr SYNO Logo" class="chat-avatar">
-        <div class="chat-info">
-          <h2>Dr SYNO</h2>
-          <p>Online - AI Assistant</p>
-        </div>
-        <div class="chat-options">
-          <button>&#9881;</button> 
-        </div>
-      </div>
-      <div id="chat-box"></div>
-      
-      <div class="chat-input">
-          <button class="attach-btn">📎</button>
-          <input type="text" id="user-message" placeholder="Type or Speak..." autocomplete="off">
-          <button id="mic-btn" class="mic-btn">🎤</button> 
-          <button id="send-btn" class="send-btn">➤</button>
-      </div>
+    <main>
+        <p>Providing digital support for mental well-being.</p>
+        <a href="chat.html" class="chat-btn">
+            <img src="./assets/chat.webp" alt="Chat" class="chat-btn-icon"> Start Chat
+        </a>
     </main>
 
-  </div>
-
-  <script src="responses.js"></script>
-  <script src="chat.js"></script>
 </body>
 </html>
